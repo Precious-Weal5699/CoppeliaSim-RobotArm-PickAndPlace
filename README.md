@@ -5,7 +5,8 @@ This project simulates a UR10 robot arm with a BarrettHand in CoppeliaSim. The a
 ## Current Progress
 ✅ Moved arm to pick position  
 ✅ Closed gripper to grasp the box  
-✅ Moved and released the box at target position  
+✅ Moved and released the box at target position and return to initial position
+ 
 
 ## Next Steps
 - Integrate vision sensor for object detection  
