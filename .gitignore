@@ -1,0 +1,12 @@
+# Local analysis scripts
+time_mass.py
+end_trad.py
+end_effector_trad.py
+end_effectory_trajectory_plot.py
+mass_vs_time_plot.png
+
+# Generated plots
+trajectory_plot.png
+
+# Logged data / experiment outputs
+*.csv
