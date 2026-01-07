@@ -1,17 +1,47 @@
-# CoppeliaSim-RobotArm-PickAndPlace
+# 📦 CoppeliaSim-RobotArm-PickAndPlace
 
-This project simulates a UR10 robot arm with a BarrettHand in CoppeliaSim. The arm performs a full pick-and-place sequence controlled through a Lua script for automated container handling  
+This repository contains a complete pick-and-place simulation pipeline implemented in CoppeliaSim, using a UR10 robotic arm equipped with a BarrettHand gripper.
+The project demonstrates staged control logic and a full autonomous pick–place–return cycle using Lua scripts.
 
-## Current Progress
-✅ Moved arm to pick position  
-✅ Closed gripper to grasp the box  
-✅ Moved and released the box at target position and return to initial position
- 
+It was originally developed as a teaching and learning resource and has since been extended into a fully integrated, reusable simulation.
 
-## Next Steps
-- Integrate vision sensor for object detection  
-- Implement path planning using inverse kinematics  
-- Visualize trajectory in Python
+## 🎥 Demo
+Full Pick-and-Place Execution (UR10 + BarrettHand)
+(GIF demo embedded below)
 
-## Demo
-![Pick and place demo](images/pick_place_screenshot.png)
+![Pick and Place Demo](media/pick_place_demo.gif)
+
+__Additional raw videos showing intermediate stages and the complete demo are available in the videos/ folder.__
+
+## Implemented Features
+✅ UR10 robot arm control in CoppeliaSim  
+✅ BarrettHand grasping and release control  
+✅ Modular stage-based scripts for learning and debugging
+✅ Fully integrated complete pick–place–return pipeline
+✅ Reproducible .ttt scene for immediate simulation
+✅ Visual demo (GIF + raw videos)
+
+
+## 🧪 Learning Path (How to Use This Repo)
+
+1. __Beginners__
+   Start with the scripts/stages/ folder to understand:
+   - Arm motion to pick position
+   - Gripper closure
+   - Placement and return logic
+
+2. __Full Pipeline__
+   Load scenes/pick_place_complete.ttt and use the scripts in stages/complete/ for:
+   - End-to-end autonomous execution
+
+
+## 🚀 Future Extensions
+- 🔲 Vision sensor integration for object detection
+- 🔲 Trajectory visualization and analysis in Python
+- 🔲 ROS/ROS2 integration for external control
+
+
+## 🤝 Contributions & Contact
+This project is intended for __learning, experimentation, and extension.__
+If you are working on CoppeliaSim, robot manipulation, or pick-and-place systems and have questions or suggestions, feel free to reach out or open an issue.
+
